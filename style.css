@@ -5,29 +5,6 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 1025px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1920px) {
-  body {
-    font-size: 20px;
-  }
-}
 
 :root{
     --white: #ffffff;
@@ -390,5 +367,136 @@
     width: 100%;
 }
 /* footer */
+@media (max-width: 768px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .home__title {
+    font-size: 36px;
+  }
+
+  .home__content {
+    font-size: 14px;
+  }
+
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about-1, .about-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-text {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .about-text h3 {
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+
+  .about-1__img img,
+  .about-2__img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio {
+    padding: 40px 20px;
+  }
+
+  .portfolio__title {
+    font-size: 32px;
+  }
+
+  .portfolio__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .portfolio__grid img {
+    width: 100%;
+    height: auto;
+  }
+
+  .reviews {
+    padding: 40px 20px;
+    min-height: 80vh;
+  }
+
+  .reviews__button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .feedback {
+    padding: 40px 20px;
+  }
+
+  .feedback__title {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .feedback__container {
+    gap: 40px;
+  }
+
+  .feedback__card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .feedback__card h3 {
+    font-size: 20px;
+  }
+
+  .feedback__card ul,
+  .feedback__card form {
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 15px 0;
+    flex-direction: column;
+  }
+
+  .header {
+    padding: 10px 0;
+  }
+
+  .header-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-nav .header-nav__item {
+    margin-right: 15px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
 
 /* pages - blocks */
