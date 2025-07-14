@@ -425,8 +425,8 @@
   }
 
   .portfolio__grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
   }
 
   .portfolio__grid img {
